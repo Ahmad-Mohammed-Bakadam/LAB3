@@ -9,8 +9,39 @@
 
 <body>
     <div class="image-preview">
-        <img src="KAU.jpg" alt="KAU LOGO">
+        <img src="KAU.jpg" alt="KAU LOGO" width="100px" height="100px">
     </div>
+
+    <div id="header">
+        <span class="myclass1">Every</span>
+        <span class="myclass2">one can</span>
+        <span class="myclass3">success.</span>
+    </div>
+    <p> One machine can do the work of fifty ordinary men.
+        <span class="myclass4">No machine can do the work of one extraordinary man.</span>
+    </p>
+
+    <style>
+        p>span {
+            color: red;
+        }
+
+        #header span {
+            color: pink;
+        }
+
+        span {
+            color: green;
+        }
+
+        #header *:last-child {
+            color: orange;
+        }
+
+        #header span:first-child:hover {
+            color: blue;
+        }
+    </style>
 
     <table>
         <thead>
